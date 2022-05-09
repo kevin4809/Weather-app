@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: lightslategray;
+    background-image: radial-gradient(circle, #393e3e, #383d3d, #363d3b, #363c39, #353b37);
 }
 
 .app {
@@ -16,7 +16,7 @@ html {
 }
 
 .content {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     padding: 40px;
     border-radius: 20px;
     width: 700px;
@@ -24,7 +24,6 @@ html {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-around;
-
 }
 
 .location {
@@ -47,7 +46,6 @@ html {
 
 }
 
-
 .content h2 {
     text-align: center;
     grid-column: 1/3;
@@ -57,7 +55,6 @@ html {
 .content p {
     font-size: 20px;
 }
-
 
 .icon img {
     background-color: lightslategray;
